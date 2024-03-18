@@ -35,10 +35,10 @@ class Empleado {
 
     @Override
     public String toString() {
-        return "Empleado{" +
-                "nombre='" + nombre + '\'' +
-                ", cargo='" + cargo + '\'' +
-                ", salario=" + salario +
+        return Constantes.EMPLEADO + "{" +
+                Constantes.NOMBRE + "='" + nombre + '\'' +
+                ", " + Constantes.CARGO + "='" + cargo + '\'' +
+                ", " + Constantes.SALARIO + "=" + salario +
                 '}';
     }
 }
