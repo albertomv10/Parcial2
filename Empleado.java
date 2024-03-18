@@ -1,7 +1,17 @@
+/**
+ * Clase que representa a un empleado.
+ */
 class Empleado {
     private String nombre;
     private String cargo;
     private double salario;
+
+    /**
+     * Constructor de la clase Empleado.
+     * @param nombre Nombre del empleado.
+     * @param cargo Cargo del empleado.
+     * @param salario Salario del empleado.
+     */
 
     public Empleado(String nombre, String cargo, double salario) {
         this.nombre = nombre;
@@ -32,6 +42,11 @@ class Empleado {
     public void setSalario(double salario) {
         this.salario = salario;
     }
+
+    /**
+     * Método que devuelve una representación en forma de cadena del objeto Empleado.
+     * @return Representación en forma de cadena del objeto Empleado.
+     */
 
     @Override
     public String toString() {
